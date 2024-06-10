@@ -14,7 +14,6 @@ export class AppComponent {
   func(data: any) {
     this.ans = data;
   }
-
   name: any;
   out: any;
   form: any;
