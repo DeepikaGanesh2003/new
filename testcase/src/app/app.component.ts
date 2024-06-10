@@ -10,11 +10,6 @@ import { FormBuilder } from '@angular/forms';
 export class AppComponent {
   title = 'testcase';
   ans: any;
-  show = true;
-  func(data: any) {
-    this.ans = data;
-  }
-
   name: any;
   out: any;
   form: any;
@@ -23,6 +18,12 @@ export class AppComponent {
       name: []
     })
   }
+  
+  show = true;
+  func(data: any) {
+    this.ans = data;
+  }
+
   add() {
     this.obj.addvalue(this.form.value);
     console.log(this.form.value);
