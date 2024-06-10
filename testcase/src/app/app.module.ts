@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { FormsModule } from '@angular/forms';
 import { Test1Component } from './test1/test1.component';
+import { SampleDirectiveDirective } from './Directive/sample-directive.directive';
+import { HostBindingDirective } from './Directive/host-binding.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    Test1Component
+    Test1Component,
+    SampleDirectiveDirective,
+    HostBindingDirective
   ],
   imports: [
     BrowserModule,

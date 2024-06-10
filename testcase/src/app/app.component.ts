@@ -10,6 +10,7 @@ import { FormBuilder } from '@angular/forms';
 export class AppComponent {
   title = 'testcase';
   ans: any;
+  show = true;
   func(data: any) {
     this.ans = data;
   }

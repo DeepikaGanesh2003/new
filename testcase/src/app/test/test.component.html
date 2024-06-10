@@ -1,3 +1,9 @@
 <input type="text" [(ngModel)]="value">
 
 <button (click)="func()">clcik</button>
+
+
+<br>
+
+<h1 appHostBinding [hoverColor]="'red'" [clickColor]="'yellow'">Hover and click me!</h1>
+<p appHostBinding [hoverColor]="'purple'" [clickColor]="'lightgreen'">Hover and click this text.</p>
