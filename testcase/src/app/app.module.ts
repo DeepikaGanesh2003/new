@@ -9,6 +9,8 @@ import { Test1Component } from './test1/test1.component';
 import { SampleDirectiveDirective } from './Directive/sample-directive.directive';
 import { HostBindingDirective } from './Directive/host-binding.directive';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
