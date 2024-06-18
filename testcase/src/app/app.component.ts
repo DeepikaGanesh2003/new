@@ -24,6 +24,9 @@ export class AppComponent {
     this.ans = data;
   }
 
+
+
+  
   add() {
     this.obj.addvalue(this.form.value);
     console.log(this.form.value);
